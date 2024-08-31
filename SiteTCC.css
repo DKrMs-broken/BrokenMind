@@ -1,0 +1,168 @@
+body {
+    color: white;
+    overflow-x: hidden;
+    background-color: rgb(17, 17, 17)
+}
+
+.navbar-custom {
+    background-color: rgba(0, 0, 0, 0.652);
+}
+
+.nav-link {
+    color: white;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.nav-link:hover {
+    color: rgb(198, 198, 198);
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-between; /* garante a separacao entre logo e botao de menu */
+    align-items: center; /* alinha verticalmente */
+}
+
+.fundo {
+    background-image: url(fundo2.png);
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    width: 100%;
+    height: auto; 
+}
+
+.nav-item-insta, .nav-item-youtube {
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    opacity: 0.5;
+}
+
+@media(min-width: 992px) {
+    .navbar-collapse .nav-item-insta:hover, .nav-item-youtube:hover {
+        transform: scale(1.2);
+    }
+}
+
+.nav-item-insta:hover, .nav-item-youtube:hover {
+    opacity: 1;
+}
+
+.menu {
+    width: 40%;
+    height: auto;
+}
+
+.logo {
+    width: 120px; 
+    height: auto; /* mantem a proporcao da imagem */
+}
+
+@media (max-width: 992px) {
+    .navbar-toggler {
+        margin-left: auto; /* garante que o botao de menu fique no canto direito */
+    }
+}
+
+
+@keyframes animacaozinha {
+    0% {
+        opacity: 0;
+        transform: translateY(25%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.logoinicial {
+    max-width: 100%;
+    width: 50%;
+    height: 20%;
+    margin: 15%;
+    animation: animacaozinha 1.5s ease forwards;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.tituloinicial {
+    display: flex;
+    justify-content: center;
+    animation: animacaozinha 1.0s ease forwards;
+    font-size: 300%;
+    font-family: FreeMono, monospace;
+    margin: 5%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.container3 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    flex-direction: column;
+}
+
+.texto2, .texto3 {
+    display: flex;
+    justify-content: center;
+    font-size: 100%;
+    text-align: justify;
+    line-height: 1.8;
+    animation: animacaozinha 2.0s ease forwards;
+    font-family: FreeMono, monospace;
+}
+
+.containerfoto {
+    margin-left: 5%;
+    justify-content: center;
+}
+
+.broken, .broken2 {
+    width: 90%; 
+    height: auto;
+}
+
+.containerfoto, .containerfoto2 {
+    display: flex;
+    animation: animacaozinha 2.5s ease forwards;
+}
+
+.copy {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding-bottom: 3%;
+}
+
+.padding {
+    padding-bottom: 10%;
+}
+
+.titulo {
+    padding-bottom: 10%;
+    font-size: xx-large;
+    font-weight: bold;
+    animation: animacaozinha 1s ease forwards;
+    font-family: FreeMono, monospace;
+}
+
+.carousel-item img {
+    width: 60%; 
+    height: auto;
+    margin: auto;
+}
+
+#meuCarrossel {
+    margin-top: 8%;
+}

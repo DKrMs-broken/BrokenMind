@@ -1,0 +1,68 @@
+body {
+    color: white;
+    overflow-x: hidden;
+    background-color: rgb(17, 17, 17)
+}
+
+.navbar-custom {
+    background-color: rgba(0, 0, 0, 0.652);
+}
+
+.nav-link {
+    color: white;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.nav-link:hover {
+    color: rgb(198, 198, 198);
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item-insta, .nav-item-youtube {
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    opacity: 0.5;
+}
+
+@media(min-width: 992px) {
+    .navbar-collapse .nav-item-insta:hover, .nav-item-youtube:hover {
+        transform: scale(1.2);
+    }
+}
+
+.nav-item-insta:hover, .nav-item-youtube:hover {
+    opacity: 1;
+}
+
+.menu {
+    width: 40%;
+    height: auto;
+}
+
+.logo {
+    width: 120px; 
+    height: auto;
+}
+
+@media (max-width: 992px) {
+    .navbar-toggler {
+        margin-left: auto; 
+    }
+}
+
+.carousel-item img {
+    width: 50%; 
+    height: auto;
+    margin: auto;
+}
+
+#meuCarrossel {
+    margin-top: 5%;
+}
