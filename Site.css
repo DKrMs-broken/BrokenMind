@@ -181,6 +181,11 @@ body {
     width: 15%;
 }
 
+.btn-primary:hover{
+    border-radius: 10px;
+    transition: 0.7s;
+}
+
 .titulo {
     font-size: xx-large;
     font-weight: bold;
