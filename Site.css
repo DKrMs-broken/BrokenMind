@@ -183,7 +183,10 @@ body {
 
 .btn-primary:hover{
     border-radius: 10px;
-    transition: 0.7s;
+}
+
+.btn-primary{
+    transition: 0.7s ease;
 }
 
 .titulo {
