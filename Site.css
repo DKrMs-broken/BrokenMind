@@ -121,6 +121,12 @@ body {
     margin-bottom: 5%;
 }
 
+@media (max-width: 992px) {
+    .olhofoto {
+        width: 30%; 
+    }
+}
+
 .texto {
     font-family: FreeMono, monospace;
     text-align: justify;
