@@ -171,6 +171,12 @@ body {
     margin-bottom: 5%; 
 }
 
+@media (max-width: 992px) {
+    .steamfoto {
+        width: 30%; 
+    }
+}
+
 .steam {
     display: flex;
     flex-direction: column;
